@@ -1,0 +1,151 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #2c3e50, #1d2671);
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main Container */
+  .App {
+    text-align: center;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Title */
+  h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  /* Candidates Section */
+  .candidates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* Candidate Cards */
+  .candidate-card {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+  }
+  
+  .candidate-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.3);
+  }
+  
+  .candidate-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    color: #f8f8f8;
+  }
+  
+  .candidate-card p {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  /* Vote Button */
+  button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    transform: scale(1.08);
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.4);
+  }
+  
+  /* Results Section */
+  .results {
+    margin-top: 30px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+  }
+  
+  .results h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #fdfdfd;
+  }
+  
+  .results p {
+    font-size: 1.1rem;
+    color: #fdfdfd;
+  }
+  
+  /* Message Display */
+  .message {
+    font-size: 1.2rem;
+    padding: 12px;
+    border-radius: 10px;
+    background: rgba(76, 175, 80, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    margin-top: 15px;
+    color: white;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .candidates {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .candidate-card {
+      width: 85%;
+    }
+  }
+  

@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/plug_integration_backend"
+]
+resolver = "2"

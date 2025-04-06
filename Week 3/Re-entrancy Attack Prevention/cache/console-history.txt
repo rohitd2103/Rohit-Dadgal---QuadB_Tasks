@@ -1,0 +1,38 @@
+console.log(`Next Withdrawal: ${new Date(Number(nextTime) * 1000)}`);
+const nextTime = await secureContract.nextTransactionTime("0x0A0b85590ef71f46376e271a0C3B6ecbef2b7d5B");
+console.log(`Balance: ${ethers.formatEther(balance.toString())} ETH`);
+const balance = await secureContract.getBalance("0x0A0b85590ef71f46376e271a0C3B6ecbef2b7d5B");
+console.log("Contract attached!");
+const secureContract = await SecureContract.attach(contractAddress);
+const SecureContract = await ethers.getContractFactory("SecureContract");
+const contractAddress = "0x21080b72D583BceF905aaFD2793329aa1Bc76B11";
+.exit
+console.log(`Balance: ${ethers.formatEther(balance.toString())} ETH`);
+const balance = await secureContract.getBalance("0x0A0b85590ef71f46376e271a0C3B6ecbef2b7d5B");
+console.log("Contract attached!");
+const secureContract = await SecureContract.attach(contractAddress);
+const SecureContract = await ethers.getContractFactory("SecureContract");
+const contractAddress = "0x21080b72D583BceF905aaFD2793329aa1Bc76B11";
+.exit
+console.log(`Balance: ${ethers.formatEther(balance)} ETH`);
+const balance = await secureContract.getBalance("0x0A0b85590ef71f46376e271a0C3B6ecbef2b7d5B");
+.exit
+console.log("Withdraw successful!");
+await secureContract.withdraw();
+console.log("Withdraw successful!");
+await secureContract.withdraw();
+console.log("Deposit successful!");
+await secureContract.deposit({ value: ethers.parseEther("0.1") }); // Deposit 0.1 ETH
+console.log(`Next Transaction Time: ${new Date(nextTime * 1000)}`);
+const nextTime = await secureContract.nextTransactionTime("0x21080b72D583BceF905aaFD2793329aa1Bc76B11");
+console.log(`Balance: ${ethers.formatEther(balance)} ETH`);
+const balance = await secureContract.getBalance("0x21080b72D583BceF905aaFD2793329aa1Bc76B11");
+const secureContract = await SecureContract.attach(contractAddress);
+const SecureContract = await ethers.getContractFactory("SecureContract");
+const contractAddress = "0x21080b72D583BceF905aaFD2793329aa1Bc76B11"; 
+.exit
+console.log(`Balance: ${ethers.formatEther(balance)} ETH`);
+const balance = await secureContract.getBalance("0xYourWalletAddress");
+const secureContract = await SecureContract.attach(contractAddress);
+const SecureContract = await ethers.getContractFactory("SecureContract");
+const contractAddress = "0x21080b72D583BceF905aaFD2793329aa1Bc76B11"; 

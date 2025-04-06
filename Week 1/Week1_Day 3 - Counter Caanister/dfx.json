@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "rust_counter_backend": {
+      "candid": "src/rust_counter_backend/rust_counter_backend.did",
+      "package": "rust_counter_backend",
+      "type": "rust"
+    },
+    "rust_counter_frontend": {
+      "dependencies": [
+        "rust_counter_backend"
+      ],
+      "source": [
+        "src/rust_counter_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "rust_counter_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

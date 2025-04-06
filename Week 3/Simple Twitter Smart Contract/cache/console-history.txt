@@ -1,0 +1,52 @@
+console.log(tweet);
+const tweet = await Twitter.getTweet(0); 
+console.log("Tweet posted!");
+await tx.wait();
+const tx = await Twitter.postTweet("Rohit's First Tweet!");
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x5A3159236510Cb8C2af48B2aa02E5834a4A32b04";
+.exit
+console.log(tweet);
+const tweet = await Twitter.getTweet(2); 
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+console.log(tweet);
+const tweet = await Twitter.getTweet(1); 
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+.exit
+console.log(tweet1);
+const tweet1 = await Twitter.getTweet(1); 
+.exit
+console.log(tweets);
+const tweets = await Twitter.getUserTweets(userAddress);
+const userAddress = "0x0A0b85590ef71f46376e271a0C3B6ecbef2b7d5B"; 
+console.log(tweet);
+const tweet = await Twitter.getTweet(1); 
+console.log(tweet);
+const tweet = await Twitter.getTweet(0); 
+console.log("Tweet posted!");
+await tx.wait();
+const tx = await Twitter.postTweet("Rohit's First Tweet");
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+.exit
+console.log(tweets);
+const tweets = await Twitter.getUserTweets(userAddress);
+const userAddress = "0x0A0b85590ef71f46376e271a0C3B6ecbef2b7d5B"; // Replace with the user's address
+console.log(tweet);
+const tweet = await Twitter.getTweet(0); // Replace 0 with the tweet ID you want to fetch
+console.log("Tweet posted!");
+await tx.wait();
+const tx = await Twitter.postTweet("Hello, world!");
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+npx hardhat console --network sepolia
+.exit
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
+const twitterAddress = "0x54A95eF681cF8DB80C3301F0da07Ab4baa6EbD51";
+const Twitter = await ethers.getContractAt("Twitter", twitterAddress);
