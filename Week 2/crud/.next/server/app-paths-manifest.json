@@ -1,0 +1,6 @@
+{
+  "/page": "app/page.js",
+  "/clusters/page": "app/clusters/page.js",
+  "/crud/page": "app/crud/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
