@@ -1,5 +1,9 @@
 
 📦 Project Structure
+
+```bash
+
+
 ├── Week 1
 │   ├── plug_integration
 │   ├── HelloWorld And Simple Rust Program
@@ -17,3 +21,4 @@
 │   └── Simple Twitter Smart Contract
 └── Week 4
     └── Aptos Counter
+```
