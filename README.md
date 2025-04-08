@@ -20,5 +20,6 @@
 │   ├── Re-entrancy Attack Prevention
 │   └── Simple Twitter Smart Contract
 └── Week 4
+    ├── Lending App
     └── Aptos Counter
 ```
